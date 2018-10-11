@@ -10,7 +10,8 @@ const server = express();
 server.use(sassMiddleware({
     src: path.join(__dirname, 'sass'), // specifies where to read *.scss file from
     dest: path.join(__dirname, 'public/stylesheets'), // specifies where to generated css
-    outputStyle: 'compressed'
+    outputStyle: 'compressed',
+    prefix: '/public/stylesheets' // important! otherwise css file won't get generated
 }));
 
 // api route
