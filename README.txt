@@ -22,6 +22,12 @@ Update the following object with the correct host, user, password, and database 
         }
     };
 
+########################################
+   INSTALLATION
+########################################
+Run the following command:
+   npm install
+
 
 ########################################
    STARTING THE SERVER
@@ -33,7 +39,8 @@ Run the following command:
 ########################################
    LAUNCHING THE USER INTERFACE
 ########################################
-    Open your favorite browser to http://ipaddress:8080
+    Open your favorite browser to http://<ipaddress>:8080
+    where <ipaddress> is the server's IP address.
     See config.js to change the port #.
     Browser must have JavaScript enabled.
 
