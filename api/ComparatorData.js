@@ -4,7 +4,7 @@
  * allowing user to select the comparator (e.g. starts_with, equals, etc) of a predicate statement.
  * 
  * Given the predicate statement "user_email starts_with 'abc'",
- * "contains" is the comparator.
+ * "starts_with" is the comparator.
  */
 
 /**
