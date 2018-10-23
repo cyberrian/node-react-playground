@@ -32,8 +32,13 @@ Run the following command:
 ########################################
    STARTING THE SERVER
 ########################################
-Run the following command:
+Open a terminal and run this command:
     npm start
+
+Open another terminal and run this command:
+    npm run dev
+
+* Leave both terminals running while testing.
 
 
 ########################################
