@@ -62,7 +62,7 @@ export function validatePredicates(predicates, sqlQueryInputInfo) {
 /**
  * Validates a single predicate.
  * @param {Predicate} predicate - The predicate object.
- * @param {object.<string, field>} fieldMap - Map where key is field value and value is field object.
+ * @param {FieldMap} fieldMap - Map of field value to FieldInfo object.
  * @param {object.<string, ComparatorMap>} comparatorTypeMap - Map where key is comparator type (e.g. "number" or "string") and value is a ComparatorMap.
  * @returns {string} Empty string if validation passes; otherwise the error string.
  */
